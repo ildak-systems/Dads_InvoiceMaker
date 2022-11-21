@@ -1,0 +1,41 @@
+{
+  "addOns": {
+    "gmail": {
+      "homepageTrigger": {
+        "enabled": true,
+        "runFunction": "onGmailMessageOpen"
+      }
+    },
+    "common": {
+      "logoUrl": "https://i.imgur.com/k9cNFu9.jpg",
+      "name": "Invoice-Sender",
+      "homepageTrigger": {
+        "enabled": true,
+        "runFunction": "onGmailMessageOpen"
+      }
+    }
+  },
+  "oauthScopes": [
+    "https://www.googleapis.com/auth/gmail.compose",
+    "https://www.googleapis.com/auth/gmail.addons.current.action.compose",
+    "https://www.googleapis.com/auth/gmail.addons.execute",
+    "https://www.googleapis.com/auth/script.locale",
+    "https://www.googleapis.com/auth/gmail.readonly",
+    "https://www.googleapis.com/auth/drive",
+    "https://www.googleapis.com/auth/drive.readonly",
+    "https://www.googleapis.com/auth/documents"
+
+  ],
+  "timeZone": "America/Los_Angeles",
+  "dependencies": {
+    "enabledAdvancedServices": [
+      {
+        "userSymbol": "Docs",
+        "version": "v1",
+        "serviceId": "docs"
+      }
+    ]
+  },
+  "exceptionLogging": "STACKDRIVER",
+  "runtimeVersion": "V8"
+}
