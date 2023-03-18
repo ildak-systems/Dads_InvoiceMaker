@@ -3,7 +3,7 @@
     "gmail": {
       "homepageTrigger": {
         "enabled": true,
-        "runFunction": "onGmailMessageOpen"
+        "runFunction": "userOnClickAppLogo"
       }
     },
     "common": {
@@ -11,7 +11,7 @@
       "name": "Invoice-Sender",
       "homepageTrigger": {
         "enabled": true,
-        "runFunction": "onGmailMessageOpen"
+        "runFunction": "userOnClickAppLogo"
       }
     }
   },
